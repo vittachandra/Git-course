@@ -46,6 +46,15 @@
 
 ## Discussion :
 #### 
+Evaluation Method	Algorithm	 Training Set Accuracy	Training Set F1-Score	Test Accuracy	Test F1-Score
+K-Fold( k=5)	Logistic Regression	0.81	0.39	0.8	0.38
+K-Fold( k=5)	Decision Tree	0.99	0.98	0.7	0.35
+K-Fold( k=5)	Random Forest	0.99	0.79	0.98	0.4
+Train - Test Split(0.3)	Logistic Regression	0.81	0.39	0.8	0.38
+Train - Test Split(0.3)	Decision Tree	0.99	0.98	0.7	0.36
+Train - Test Split(0.3)	Random Forest	0.99	0.98	0.79	0.38
+![image](https://github.com/vittachandra/Git-course/assets/32310951/ef923828-a05a-4815-bd62-ab559d9814d9)
+
 
 
 ### Repository Structure
